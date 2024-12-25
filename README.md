@@ -4,7 +4,7 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 
 
-Here’s a simple documentation to clone your Git repository and run a Vite + React app on your device or laptop.
+Here’s a simple documentation to clone Git repository and run a Vite + React app on your device or laptop.
 
 # Vite + React App Setup Guide
 
