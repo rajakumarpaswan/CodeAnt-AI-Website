@@ -1,0 +1,98 @@
+/* Media query for screens with a maximum width of 440px */
+@media only screen and (max-width: 440px) {
+
+  /* Adjusts the main navigation container's height to 50vh and makes it block-level */
+  .mainDivNav{
+      height: 50vh;
+      display: block;
+  }
+
+  /* Styles the logo container to align its items horizontally with a gap */
+  .logo{
+      display: flex;
+      justify-content: flex-start; /* Aligns the items to the left */
+      align-items: center; /* Vertically centers the items */
+      gap: .6rem; /* Adds space between the items */
+  }
+
+  /* Styles the logo image */
+  .logo img {
+      width: 28.5px; /* Sets the width of the logo */
+      height: 32px; /* Sets the height of the logo */
+  }
+
+  /* Styles the text inside the logo */
+  .logo span {
+      font-family: Satoshi; /* Sets the font family */
+      font-size: 24px; /* Sets the font size */
+      font-weight: 400; /* Sets the font weight */
+  }
+
+  /* Styles the dropdown input container */
+  .inputdeopdown {
+      position: relative; /* Positions the container relative to its normal position */
+      margin-top: 5px; /* Adds a margin on top */
+  }
+
+  /* Styles the input field inside the dropdown */
+  .inputdeopdown input {
+      border: 1px solid #d5d7da; /* Adds a light gray border */
+      margin-top: 2px; /* Adds a small margin on top */
+      border-radius: 5px; /* Rounds the corners of the input field */
+      background-color: #ffffff; /* Sets the background color to white */
+      color: #181d27; /* Sets the text color */
+      font-family: Inter; /* Sets the font family */
+      font-size: 16px; /* Sets the font size */
+      font-weight: 400; /* Sets the font weight */
+      padding: 5px 15px; /* Adds padding inside the input field */
+      width: 100%; /* Makes the input field take up the full width of its container */
+  }
+
+  /* Styles the dropdown logo (icon) inside the input field */
+  .inputdeopdown .dropdownlogo {
+      position: absolute; /* Positions the icon absolutely inside the container */
+      right: 5%; /* Aligns the icon 5% from the right side */
+      top: 30%; /* Aligns the icon vertically in the middle of the input */
+  }
+
+  /* Styles the section containing the navigation links */
+  .sidebarLink-section {
+      display: flex; /* Uses flexbox to layout the items */
+      flex-direction: column; /* Arranges the links vertically */
+      gap: 20px; /* Adds space between the links */
+      margin-top: 20px; /* Adds a margin on top */
+      margin-left: 10px; /* Adds a margin on the left */
+  }
+
+  /* Styles for the active navigation link */
+  .sidebarLink-section .activeclass {
+      display: flex; /* Uses flexbox to layout the active link */
+      justify-content: flex-start; /* Aligns the items to the left */
+      align-items: center; /* Vertically centers the items */
+      gap: 0.4rem; /* Adds space between the items */
+      color: white; /* Sets the text color to white */
+      text-decoration: none; /* Removes the underline from the text */
+      padding: 10px 14px; /* Adds padding inside the link */
+      border-radius: 10px; /* Rounds the corners of the active link */
+      background-color: #1570EF; /* Sets the background color to blue */
+      /* height: 50vh; Commented-out property, may be used for responsive height */
+  }
+
+  /* Styles for the inactive navigation link */
+  .sidebarLink-section .navigationlink {
+      display: flex; /* Uses flexbox to layout the inactive link */
+      justify-content: flex-start; /* Aligns the items to the left */
+      align-items: center; /* Vertically centers the items */
+      gap: 0.4rem; /* Adds space between the items */
+      color: #414651; /* Sets the text color */
+  }
+
+  /* Removes underline for inactive navigation links and sets their text styles */
+  .sidebarLink-section .navigationlink .no-underline {
+      text-decoration: none; /* Removes the underline */
+      color: #414651; /* Sets the text color */
+      font-family: Inter; /* Sets the font family */
+      font-size: 16px; /* Sets the font size */
+      font-weight: 600; /* Sets the font weight */
+  }
+}

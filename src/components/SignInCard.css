@@ -1,0 +1,132 @@
+/* Container for the sign-in card section */
+.signinCard-section {
+    position: relative; /* Set the position to relative for the child elements with absolute positioning */
+  }
+  
+  /* Styling for the main card (aiToDetectCard) inside the sign-in section */
+  .signinCard-section .aiToDetectCard {
+    position: absolute; /* Position the card absolutely within the parent container */
+    box-shadow: 0px 0px 24px 0px #08173529; /* Add a soft shadow around the card */
+    border-radius: 24px; /* Round the corners of the card */
+    background-color: #FFFFFF; /* White background color for the card */
+    color: #081735; /* Text color inside the card */
+    width: 70%; /* Set the width of the card to 70% of its parent container */
+  }
+  
+  /* Styling for the section that contains image and text inside the aiToDetectCard */
+  .signinCard-section .aiToDetectCard .imageAndText {
+    display: flex; /* Use flexbox for layout */
+    gap: 0.5rem; /* Add space between the image and text */
+    align-items: center; /* Vertically center-align the items */
+    border-bottom: 1px solid #e6e8f0; /* Add a bottom border for separation */
+    padding-right: 35px; /* Add padding to the right */
+    padding-left: 25px; /* Add padding to the left */
+  }
+  
+  /* Image styling inside the imageAndText section */
+  .signinCard-section .aiToDetectCard .imageAndText img {
+    height: 31px; /* Set the height of the image */
+    width: 28px; /* Set the width of the image */
+  }
+  
+  /* Text styling inside the imageAndText section */
+  .signinCard-section .aiToDetectCard .imageAndText p {
+    font-family: Inter; /* Use the Inter font */
+    font-size: 18px; /* Set the font size */
+    font-weight: 700; /* Set font weight to bold */
+  }
+  
+  /* Styling for the data section inside the aiToDetectCard */
+  .signinCard-section .aiToDetectCard .data-section {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Vertically center-align the items */
+    justify-content: space-between; /* Space out the items evenly */
+    text-align: center; /* Center-align the text */
+    padding-top: 30px; /* Add padding at the top */
+    padding-bottom: 17px; /* Add padding at the bottom */
+    padding-right: 35px; /* Add padding to the right */
+    padding-left: 25px; /* Add padding to the left */
+  }
+  
+  /* Styling for individual items inside the data-section (languageSupport, developers, hoursSaved) */
+  .signinCard-section .aiToDetectCard .data-section .languageSupport,
+  .signinCard-section .aiToDetectCard .data-section .developers,
+  .signinCard-section .aiToDetectCard .data-section .hoursSaved {
+    line-height: 6%; /* Set the line height for these sections */
+  }
+  
+  /* Styling for the span elements inside the data-section */
+  .signinCard-section .aiToDetectCard .data-section .languageSupport span,
+  .signinCard-section .aiToDetectCard .data-section .developers span,
+  .signinCard-section .aiToDetectCard .data-section .hoursSaved span {
+    font-family: Inter; /* Use the Inter font */
+    font-size: 18px; /* Set the font size */
+    font-weight: 700; /* Set the font weight to bold */
+    text-align: center; /* Center-align the text */
+  }
+  
+  /* Styling for the h4 elements inside the data-section */
+  .signinCard-section .aiToDetectCard .data-section .languageSupport h4,
+  .signinCard-section .aiToDetectCard .data-section .developers h4,
+  .signinCard-section .aiToDetectCard .data-section .hoursSaved h4 {
+    font-family: Inter; /* Use the Inter font */
+    font-size: 14px; /* Set the font size */
+    font-weight: 400; /* Set the font weight to normal */
+  }
+  
+  /* Styling for the issuesFixed card */
+  .signinCard-section .issuesFixed-card {
+    position: absolute; /* Position the card absolutely within the parent container */
+    box-shadow: 0px 0px 24px 0px #08173529; /* Add a soft shadow around the card */
+    border-radius: 24px; /* Round the corners of the card */
+    background-color: #FFFFFF; /* White background color for the card */
+    top: 152px; /* Position the card 152px from the top */
+    left: 190px; /* Position the card 190px from the left */
+    width: 41%; /* Set the width of the card to 41% of the parent container */
+    padding: 15px 25px 15px 25px; /* Add padding inside the card */
+  }
+  
+  /* Styling for the issue-fixed section inside the issuesFixed-card */
+  .signinCard-section .issuesFixed-card .issue-Fixed-section {
+    line-height: 2%; /* Set line height */
+    margin-top: 20px; /* Add margin at the top */
+  }
+  
+  /* Styling for the span inside the issue-Fixed-section */
+  .signinCard-section .issuesFixed-card .issue-Fixed-section span {
+    font-family: Inter; /* Use the Inter font */
+    font-size: 32px; /* Set font size */
+    font-weight: 700; /* Set font weight to bold */
+  }
+  
+  /* Styling for the paragraph inside the issue-Fixed-section */
+  .signinCard-section .issuesFixed-card .issue-Fixed-section p {
+    font-family: Inter; /* Use the Inter font */
+    font-size: 14px; /* Set font size */
+    font-weight: 700; /* Set font weight to bold */
+    margin-bottom: 20px; /* Add margin to the bottom */
+  }
+  
+  /* Styling for the barChartAndWeek-section inside the issuesFixed-card */
+  .signinCard-section .issuesFixed-card .barChartAndWeek-section {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out items evenly */
+    align-items: center; /* Vertically center-align the items */
+  }
+  
+  /* Styling for the weekly-Update section inside the barChartAndWeek-section */
+  .signinCard-section .issuesFixed-card .barChartAndWeek-section .weekly-Update {
+    line-height: 5%; /* Set the line height */
+  }
+  
+  /* Styling for the span inside the weekly-Update section */
+  .signinCard-section .issuesFixed-card .barChartAndWeek-section .weekly-Update span {
+    display: flex; /* Use flexbox layout for the span */
+    justify-content: flex-start; /* Align the items to the left */
+    align-items: center; /* Vertically center-align the items */
+    color: #0049C6; /* Set text color */
+    font-family: Inter; /* Use the Inter font */
+    font-size: 14px; /* Set font size */
+    font-weight: 700; /* Set font weight to bold */
+  }
+  

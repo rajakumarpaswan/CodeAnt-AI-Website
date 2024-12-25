@@ -1,0 +1,77 @@
+/* Main container for the SignInPage */
+.SignInPage-content {
+    height: 100vh; /* Full height of the viewport */
+    width: 100vw; /* Full width of the viewport */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Distribute space between the child elements (left and right parts) */
+    align-items: center; /* Vertically center the child elements */
+    overflow: hidden; /* Hide any content that overflows the container */
+}
+
+/* Styling for the left section of the SignInPage */
+.SignInLeftPart {
+    position: relative; /* Used for absolute positioning of child elements */
+    width: 50%; /* The left part takes up 50% of the width of the container */
+    height: 100%; /* Full height of the container */
+    border-right: 1px solid gray; /* Adds a border on the right side of the left part */
+}
+
+/* Section within the left part for content alignment */
+.SignInLeftPart .SingInLeft-Section {
+    margin-top: 45%; /* Push the content down to center it vertically */
+    margin-left: 20%; /* Center the content horizontally within the left part */
+}
+
+/* Styling for the sign-in option section (right part) */
+.signInOption-Section {
+    padding-left: 20px; /* Adds padding to the left */
+    padding-right: 20px; /* Adds padding to the right */
+    width: 50%; /* Takes up 50% of the width of the container */
+    height: 100%; /* Full height of the container */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+}
+
+/* Styling for the logo in the left part */
+.SignInLeftPart .masklogo {
+    position: absolute; /* Position it absolutely within the parent container */
+    bottom: -5px; /* Position 5px from the bottom of the container */
+    left: -4px; /* Position 4px from the left side of the container */
+}
+
+/* Media query for screens with a width of 440px or smaller (e.g., mobile devices) */
+@media only screen and (max-width: 440px) {
+    .SignInPage-content {
+        height: 100vh; /* Full height of the viewport */
+        width: 100vw; /* Full width of the viewport */
+    }
+
+    /* Hide the left part of the page on small screens */
+    .SignInLeftPart {
+        position: relative;
+        display: none; /* Hide the left part */
+        width: 50%;
+        height: 100%;
+        border-right: 1px solid gray;
+    }
+
+    /* Make the sign-in option section (right part) take full width */
+    .signInOption-Section {
+        padding-left: 20px; /* Add left padding */
+        padding-right: 20px; /* Add right padding */
+        width: 100%; /* Take up full width */
+        height: 100%; /* Take up full height */
+        display: flex; /* Use flexbox for layout */
+        justify-content: center; /* Center the content horizontally */
+        align-items: center; /* Center the content vertically */
+    }
+
+    /* Hide the logo in the left part on mobile screens */
+    .SignInLeftPart .masklogo {
+        position: absolute;
+        display: none; /* Hide the logo */
+        bottom: -5px;
+        left: -4px;
+    }
+}

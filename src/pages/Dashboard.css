@@ -1,0 +1,17 @@
+/* Dashboard Section styling for desktop and larger screens */
+.Dashboard-section {
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  width: 100vw; /* Set the width to 100% of the viewport width */
+  display: flex; /* Use flexbox layout */
+  flex-direction: row; /* Align child elements in a horizontal row */
+}
+
+/* Media query for devices with screen width 440px or less (e.g., mobile phones) */
+@media only screen and (max-width: 440px) {
+  .Dashboard-section {
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    width: 100vw; /* Set the width to 100% of the viewport width */
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Align child elements in a vertical column on small screens */
+  }
+}

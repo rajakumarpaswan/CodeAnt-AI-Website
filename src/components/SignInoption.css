@@ -1,0 +1,358 @@
+/* Container for the entire sign-in option page */
+.signInoption-page {
+  width: 100%; /* The page takes the full width of the container */
+}
+
+/* Privacy and policy text styling */
+.signInoption-page .privacyAndPolicy {
+  font-family: Inter; /* Use the Inter font */
+  font-size: 16px; /* Set font size to 16px */
+  font-weight: 400; /* Set font weight to normal */
+  margin-top: 32px; /* Add space at the top */
+  text-align: center; /* Center-align the text */
+}
+
+/* Styling for the Sign In and Welcome Section */
+.signInAndWelcome-Section {
+  width: 100%; /* The section takes the full width */
+  height: 60vh; /* Set the height to 60% of the viewport */
+  background-color: #FAFAFA; /* Light gray background */
+  border: 1px solid #D5D7DA; /* Border color */
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Content within the Sign In and Welcome Section */
+.signInAndWelcome-Section .codeant-AI-content {
+  line-height: 2%; /* Set the line height */
+  border-bottom: 1px solid #d5d7da; /* Bottom border */
+  padding: 20px; /* Add padding inside the content */
+}
+
+/* Section containing image and text in the Sign In and Welcome Section */
+.signInAndWelcome-Section .codeant-AI-content .codeAi-Ant-section {
+  display: flex; /* Use flexbox layout */
+  gap: 0.5rem; /* Space between the image and text */
+  justify-content: center; /* Center-align items horizontally */
+  align-items: center; /* Center-align items vertically */
+}
+
+/* Image styling inside the codeAi-Ant-section */
+.signInAndWelcome-Section .codeant-AI-content .codeAi-Ant-section img {
+  width: 35.62px; /* Set width for the image */
+  height: 40px; /* Set height for the image */
+}
+
+/* Text styling inside the codeAi-Ant-section */
+.signInAndWelcome-Section .codeant-AI-content .codeAi-Ant-section span {
+  font-family: Satoshi; /* Use the Satoshi font */
+  font-size: 30px; /* Set font size to 30px */
+  font-weight: 400; /* Normal font weight */
+}
+
+/* Heading paragraph in the Sign In and Welcome Section */
+.signInAndWelcome-Section .codeant-AI-content p {
+  font-family: Inter; /* Use the Inter font */
+  font-size: 32px; /* Set font size to 32px */
+  font-weight: 600; /* Set font weight to bold */
+  text-align: center; /* Center-align the text */
+  margin-top: 30px; /* Add space above the text */
+}
+
+/* Button section for choosing options in the Sign In and Welcome Section */
+.signInAndWelcome-Section .codeant-AI-content .Choice-option-btns {
+  display: flex; /* Use flexbox layout */
+  justify-content: center; /* Center-align buttons horizontally */
+  align-items: center; /* Vertically center-align items */
+  margin-top: 40px; /* Add space above the button section */
+}
+
+/* Styling for buttons inside the Choice-option-btns section */
+.signInAndWelcome-Section .codeant-AI-content .Choice-option-btns button {
+  padding: 10px 20px; /* Add padding inside the button */
+  font-size: 16px; /* Set font size to 16px */
+  cursor: pointer; /* Show pointer cursor on hover */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Round the corners */
+  padding: 2rem 6rem 2rem 6rem; /* Set padding on all sides */
+  transition: background-color 0.3s ease; /* Add transition for background color */
+}
+
+/* Active button state */
+.signInAndWelcome-Section .codeant-AI-content .Choice-option-btns button.active {
+  background-color: #1570ef; /* Blue background for active button */
+  color: white; /* White text color */
+}
+
+/* Hover effect for inactive buttons */
+.signInAndWelcome-Section .codeant-AI-content .Choice-option-btns button:not(.active):hover {
+  background-color: #eaeaea; /* Light gray background on hover */
+}
+
+/* Styling for the "SaaS" option button */
+.signInAndWelcome-Section .codeant-AI-content .Choice-option-btns .saas-option {
+  color: #414651; /* Set text color */
+  border: 1px solid #e9eaeb; /* Light gray border */
+  background-color: #fafafa; /* Light gray background */
+  padding: 2rem 6rem 2rem 6rem; /* Add padding inside the button */
+  border-radius: 5px; /* Round the corners */
+  font-family: Inter; /* Use Inter font */
+  font-size: 20px; /* Set font size to 20px */
+  font-weight: 600; /* Set font weight to bold */
+}
+
+/* Styling for the "Self-hosted" option button */
+.signInAndWelcome-Section .codeant-AI-content .Choice-option-btns .self-hosted {
+  border: 1px solid #e9eaeb; /* Light gray border */
+  background-color: #fafafa; /* Light gray background */
+  border-radius: 5px; /* Round the corners */
+  color: #414651; /* Set text color */
+  font-family: Inter; /* Use Inter font */
+  font-size: 20px; /* Set font size to 20px */
+  font-weight: 600; /* Set font weight to bold */
+  padding: 2rem 4rem 2rem 4rem; /* Add padding inside the button */
+}
+
+/* Links section for signing in with third-party services */
+.signInAndWelcome-Section .signInLinks {
+  display: flex; /* Use flexbox layout */
+  flex-direction: column; /* Arrange links vertically */
+  align-items: center; /* Center-align the links */
+  gap: 1rem; /* Add space between links */
+  padding-bottom: 20px; /* Add padding at the bottom */
+  padding-top: 20px; /* Add padding at the top */
+}
+
+/* Styling for the GitHub link */
+.signInAndWelcome-Section .signInLinks .githublink {
+  border: 1px solid #D8DAE5; /* Light gray border */
+  background-color: #FFFFFF; /* White background */
+  display: flex; /* Use flexbox layout */
+  width: 80%; /* Set the width to 80% of the container */
+  align-items: center; /* Vertically align items */
+  justify-content: center; /* Horizontally align items */
+  gap: .5rem; /* Add space between items */
+  border-radius: 8px; /* Round the corners */
+  padding: 16px 130px 16px 130px; /* Add padding */
+  text-decoration: none; /* Remove underline from the link */
+}
+
+/* Styling for the GitHub icon's background color */
+.signInAndWelcome-Section .signInLinks .githublink .githubbgcolor {
+  background: #000; /* Black background */
+  color: white; /* White text color */
+  border-radius: 100px; /* Round the corners completely */
+}
+
+/* Styling for the Bitbucket link text */
+.signInAndWelcome-Section .signInLinks .bitbucketlink .bitbuketcolor {
+  color: #1570ef; /* Set text color to blue */
+}
+
+/* Styling for the GitLab link text */
+.signInAndWelcome-Section .signInLinks .gitlablink .gitlabbgcolor {
+  color: rgb(231, 128, 59); /* Set text color to a custom orange */
+}
+
+/* Styling for the self-hosted sign-in links section */
+.selfhosted-signInlinks {
+  display: flex; /* Use flexbox layout */
+  flex-direction: column; /* Arrange items vertically */
+  gap: 10px; /* Add space between the links */
+  margin-top: 20px; /* Add space at the top */
+}
+
+/* Styling for each self-hosted sign-in link */
+.self-hosted-link {
+  display: flex; /* Use flexbox layout */
+  align-items: center; /* Vertically align items */
+  justify-content: center; /* Horizontally center-align items */
+  gap: .3rem; /* Add space between items */
+  padding: 16px 170px; /* Add padding */
+  border-radius: 5px; /* Round the corners */
+  font-size: 16px; /* Set font size to 16px */
+  font-weight: 600; /* Set font weight to bold */
+  border: 1px solid #D8DAE5; /* Light gray border */
+  background-color: #FFFFFF; /* White background */
+  cursor: pointer; /* Show pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Add transition for background color */
+}
+
+
+
+/* Media query for devices with screen width 440px or less (e.g., mobile phones) */
+@media only screen and (max-width: 440px) {
+
+  /* Container for the entire sign-in option page */
+  .signInoption-page {
+    width: 100%; /* The page takes the full width of the container */
+  }
+
+  /* Sign In and Welcome Section styling */
+  .signInAndWelcome-Section {
+    width: 100%; /* Set the width to 100% */
+    height: 60vh; /* Set the height to 60% of the viewport height */
+    background-color: #FAFAFA; /* Light gray background */
+    border: 1px solid #D5D7DA; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+  }
+
+  /* Content inside the Sign In and Welcome Section */
+  .signInAndWelcome-Section .codeant-AI-content {
+    line-height: 2%; /* Adjust the line height for the content */
+    border-bottom: 1px solid #d5d7da; /* Add a border at the bottom */
+    padding: 20px; /* Add padding inside the content */
+  }
+
+  /* Styling for the section with image and text inside the Sign In and Welcome Section */
+  .signInAndWelcome-Section .codeant-AI-content .codeAi-Ant-section {
+    display: flex; /* Use flexbox layout */
+    gap: 0.5rem; /* Add space between the items */
+    justify-content: center; /* Center-align the items horizontally */
+    align-items: center; /* Center-align the items vertically */
+  }
+
+  /* Image inside the codeAi-Ant-section */
+  .signInAndWelcome-Section .codeant-AI-content .codeAi-Ant-section img {
+    width: 35.62px; /* Set the width of the image */
+    height: 40px; /* Set the height of the image */
+  }
+
+  /* Styling for the text inside the codeAi-Ant-section */
+  .signInAndWelcome-Section .codeant-AI-content .codeAi-Ant-section span {
+    font-family: Satoshi; /* Use the Satoshi font */
+    font-size: 30px; /* Set the font size */
+    font-weight: 400; /* Set normal font weight */
+  }
+
+  /* Paragraph styling for text inside the Sign In and Welcome Section */
+  .signInAndWelcome-Section .codeant-AI-content p {
+    font-family: Inter; /* Use the Inter font */
+    font-size: 24px; /* Set font size to 24px for smaller screens */
+    font-weight: 600; /* Set bold font weight */
+    text-align: center; /* Center-align the text */
+    margin-top: 30px; /* Add space above the text */
+  }
+
+  /* Button container styling inside the Sign In and Welcome Section */
+  .signInAndWelcome-Section .codeant-AI-content .Choice-option-btns {
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center-align the buttons horizontally */
+    align-items: center; /* Center-align the buttons vertically */
+    margin-top: 40px; /* Add space above the button container */
+  }
+
+  /* Styling for buttons inside the Choice-option-btns section */
+  .signInAndWelcome-Section .codeant-AI-content .Choice-option-btns button {
+    padding: 8px 18px; /* Set padding inside the button */
+    font-size: 16px; /* Set font size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border: none; /* Remove the button border */
+    border-radius: 5px; /* Round the button corners */
+    padding: 1.5rem 3.5rem 1.5rem 3.5rem; /* Adjust padding */
+    transition: background-color 0.3s ease; /* Add smooth transition for background color */
+  }
+
+  /* Active button state styling */
+  .signInAndWelcome-Section .codeant-AI-content .Choice-option-btns button.active {
+    background-color: #1570ef; /* Blue background for active button */
+    color: white; /* White text color */
+  }
+
+  /* Inactive button hover effect */
+  .signInAndWelcome-Section .codeant-AI-content .Choice-option-btns button:not(.active):hover {
+    background-color: #eaeaea; /* Light gray background on hover */
+  }
+
+  /* Styling for the "SaaS" option button */
+  .signInAndWelcome-Section .codeant-AI-content .Choice-option-btns .saas-option {
+    color: #414651; /* Set text color */
+    border: 1px solid #e9eaeb; /* Light gray border */
+    background-color: #fafafa; /* Light gray background */
+    padding: 1.5rem 3.5rem 1.5rem 3.5rem; /* Add padding inside the button */
+    border-radius: 5px; /* Round corners of the button */
+    font-family: Inter; /* Use Inter font */
+    font-size: 20px; /* Set font size */
+    font-weight: 600; /* Set bold font weight */
+  }
+
+  /* Styling for the "Self-hosted" option button */
+  .signInAndWelcome-Section .codeant-AI-content .Choice-option-btns .self-hosted {
+    padding: 1.5rem; /* Adjust padding inside the button */
+    border: 1px solid #e9eaeb; /* Light gray border */
+    background-color: #fafafa; /* Light gray background */
+    border-radius: 5px; /* Round corners */
+    color: #414651; /* Set text color */
+    font-family: Inter; /* Use Inter font */
+    font-size: 20px; /* Set font size */
+    font-weight: 600; /* Set bold font weight */
+  }
+
+  /* Links section styling for third-party sign-in options */
+  .signInAndWelcome-Section .signInLinks {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange the links vertically */
+    gap: 1rem; /* Add space between the links */
+    align-items: center; /* Center-align the links */
+    padding-bottom: 30px; /* Add space at the bottom */
+  }
+
+  /* GitHub sign-in link styling */
+  .signInAndWelcome-Section .signInLinks .githublink {
+    border: 1px solid #D8DAE5; /* Light gray border */
+    background-color: #FFFFFF; /* White background */
+    display: flex; /* Use flexbox layout */
+    width: 90%; /* Set the width to 90% of the container */
+    font-size: 16px; /* Set font size */
+    font-weight: 600; /* Set bold font weight */
+    align-items: center; /* Vertically align the items */
+    justify-content: center; /* Horizontally align the items */
+    gap: .5rem; /* Add space between items */
+    border-radius: 8px; /* Round the corners */
+    padding: 16px 20px 16px 20px; /* Add padding inside the link */
+    text-decoration: none; /* Remove underline from the link */
+  }
+
+  /* Styling for the GitHub icon's background color */
+  .signInAndWelcome-Section .signInLinks .githublink .githubbgcolor {
+    background: #000; /* Black background for the GitHub icon */
+    color: white; /* White text color */
+    border-radius: 100px; /* Round corners to make it circular */
+  }
+
+  /* Bitbucket link text color */
+  .signInAndWelcome-Section .signInLinks .bitbucketlink .bitbuketcolor {
+    color: #1570ef; /* Set Bitbucket text color to blue */
+  }
+
+  /* GitLab link text color */
+  .signInAndWelcome-Section .signInLinks .gitlablink .gitlabbgcolor {
+    color: rgb(231, 128, 59); /* Set GitLab text color to a custom orange */
+  }
+
+  /* Self-hosted sign-in links container styling */
+  .selfhosted-signInlinks {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange links vertically */
+    gap: 10px; /* Add space between links */
+    margin-top: 20px; /* Add space above the links */
+  }
+
+  /* Self-hosted link button styling */
+  .self-hosted-link {
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Vertically align the items */
+    justify-content: center; /* Horizontally center-align the items */
+    gap: 1rem; /* Add space between items */
+    padding: 16px 85px; /* Add padding */
+    border-radius: 5px; /* Round the corners */
+    font-size: 16px; /* Set font size */
+    font-weight: 600; /* Set bold font weight */
+    border: 1px solid #D8DAE5; /* Light gray border */
+    background-color: #FFFFFF; /* White background */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Add smooth transition for background color */
+  }
+
+}
+
+
