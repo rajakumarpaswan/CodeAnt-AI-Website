@@ -59,9 +59,11 @@ npm run dev
 ```
 
 This command will start the Vite development server. Once it's running, you will see an output with the URL, typically `http://localhost:5173/` or similar.
+
  5. Open the App in Your Browser
 
 Open your web browser and navigate to the URL provided by the development server (usually `http://localhost:5173/`), and you should see the app running.
+
  6. Make Changes and See Live Updates
 
 Vite automatically reloads the app in the browser whenever changes are made to the source code. You can edit the files, and the app will reflect the changes without needing to restart the development server.
